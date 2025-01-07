@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Godseye Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <!-- Sidebar -->
+  <div class="flex">
+    <div class="w-64 bg-gray-800 h-screen text-white flex flex-col">
+      <div class="p-4 border-b border-gray-700">
+        <h1 class="text-2xl font-bold text-center">Godseye</h1>
+        <p class="text-sm text-center mt-1">Surveillance Dashboard</p>
+      </div>
+      <nav class="flex-grow p-4">
+        <ul>
+          <li class="mb-3">
+            <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-700">
+              <span class="material-icons">dashboard</span>
+              Dashboard
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-700">
+              <span class="material-icons">videocam</span>
+              Live Video Feed
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-700">
+              <span class="material-icons">supervised_user_circle</span>
+              Manage Users
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-700">
+              <span class="material-icons">settings</span>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="p-4 border-t border-gray-700">
+        <a href="#" class="flex items-center gap-2 text-gray-400 hover:text-white">
+          <span class="material-icons">logout</span>
+          Logout
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-grow p-6">
+      <!-- Header -->
+      <header class="flex justify-between items-center mb-6">
+        <div>
+          <h2 class="text-3xl font-semibold text-gray-800">Welcome, Eabel John</h2>
+          <p class="text-gray-600">Monitor and manage your surveillance system</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <button class="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            <span class="material-icons">notifications</span>
+            Notifications
+          </button>
+        </div>
+      </header>
+
+      <!-- Dashboard Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-lg font-medium text-gray-800">Live Video Feed</h3>
+          <p class="text-sm text-gray-600">Status: <span class="font-semibold text-red-600">No Signal</span></p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-lg font-medium text-gray-800">User Accounts</h3>
+          <p class="text-sm text-gray-600">Active Users: <span class="font-semibold">5</span></p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md">
+          <h3 class="text-lg font-medium text-gray-800">System Logs</h3>
+          <p class="text-sm text-gray-600">Last Updated: <span class="font-semibold">5 mins ago</span></p>
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="mt-8">
+        <h3 class="text-xl font-semibold text-gray-800">Recent Alerts</h3>
+        <div class="bg-white rounded-lg shadow-md p-6 mt-4">
+          <ul class="divide-y divide-gray-200">
+            <li class="py-4 flex justify-between items-center">
+              <span class="text-gray-800">Wild Animal Detected</span>
+              <span class="text-gray-500 text-sm">10:30 AM</span>
+            </li>
+            <li class="py-4 flex justify-between items-center">
+              <span class="text-gray-800">Potential Threat Detected</span>
+              <span class="text-gray-500 text-sm">Yesterday</span>
+            </li>
+            <li class="py-4 flex justify-between items-center">
+              <span class="text-gray-800">Landslide Alert</span>
+              <span class="text-gray-500 text-sm">Last Week</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
