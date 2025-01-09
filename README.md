@@ -1,3 +1,3 @@
 https://eabeljohn453.github.io/sample/login      
 
-https://eabeljohn453.github.io/sample/old
+https://eabeljohn453.github.io/sample/admin
