@@ -1,5 +1,5 @@
-https://eabeljohn453.github.io/sample/login      
+https://eabeljohn453.github.io/Godseye/login      
 
-https://eabeljohn453.github.io/sample/admin
+https://eabeljohn453.github.io/Godseye/admin
 
-https://eabeljohn453.github.io/sample/user
+https://eabeljohn453.github.io/Godseye/user
